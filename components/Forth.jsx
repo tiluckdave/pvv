@@ -10,7 +10,7 @@ const Forth = ({ isTabletOrMobile }) => {
 		>
 			<div className='flex items-end'>
 				{isTabletOrMobile ? (
-					<img className='w-[20rem] h-[11.45rem]' src={`/722173_mobile.png`} />
+					<img className='w-[20rem] h-[11.45rem]' src={`/assets/722173_mobile.png`} />
 				) : (
 					<img className='w-[38.25rem] h-[21.89813rem]' src={`/assets/722173.png`} />
 				)}
