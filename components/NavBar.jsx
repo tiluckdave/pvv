@@ -32,6 +32,7 @@ const MenuItems = styled.div`
 	display: flex;
 	align-items: center;
 	gap: 3rem;
+	z-index: 100;
 	// a is for the Link
 	a {
 		font-family: Roboto;
