@@ -6,7 +6,7 @@ import Third from "@/components/Third";
 import Forth from "@/components/Forth";
 import ReportsAndFilling from "@/components/ReportsAndFilling";
 import PdfComponents from "@/components/PdfComponents";
-import Layout from "@/components/layout";
+import Layout from "@/components/Layout";
 
 export default function Home() {
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 480px)' })

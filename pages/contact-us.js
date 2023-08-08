@@ -1,7 +1,7 @@
 import ContactForm from '@/components/ContactForm';
 import ContactCard from '@/components/ContactCard';
 import TeamComponent from '@/components/TeamComponent';
-import Layout from '@/components/layout';
+import Layout from '@/components/Layout';
 
 const Contact = () => {
     const bg = './bg-city.png';
