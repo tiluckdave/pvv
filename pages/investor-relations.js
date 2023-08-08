@@ -6,21 +6,18 @@ import Third from "@/components/Third";
 import Forth from "@/components/Forth";
 import ReportsAndFilling from "@/components/ReportsAndFilling";
 import PdfComponents from "@/components/PdfComponents";
-import Footer from "@/components/Footer";
-import NavBar from "@/components/NavBar";
+import Layout from "@/components/layout";
 
 export default function Home() {
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 480px)' })
   return (
-    <div>
-      <NavBar/>
+    <Layout>
       <First isTabletOrMobile={isTabletOrMobile} />
       <Second isTabletOrMobile={isTabletOrMobile} />
       <Third isTabletOrMobile={isTabletOrMobile} />
       <Forth isTabletOrMobile={isTabletOrMobile} />
       <ReportsAndFilling />
       <PdfComponents />
-      <Footer/>
-    </div>
+    </Layout>
   )
 }

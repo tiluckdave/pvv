@@ -1,6 +1,5 @@
-import NavBar from '@/components/NavBar'
 import {styled} from 'styled-components'
-import Footer from '@/components/Footer'
+import Layout from '@/components/layout'
 
 const JoinTeamBoxHeading = styled.div`
     width: 100%;
@@ -641,8 +640,7 @@ const MainDiv = styled.div`
 
 const AboutUs = () => {
   return (
-    <div>
-        <NavBar/>
+    <Layout>
         <MainDiv>
         <TextContainer>
             <div className='text-box-1'>
@@ -834,9 +832,7 @@ const AboutUs = () => {
                     </form>
             </JoinTeamBox>
         </MainDiv>
-        <Footer/>
-       
-    </div>
+    </Layout>
         
   )
 }
